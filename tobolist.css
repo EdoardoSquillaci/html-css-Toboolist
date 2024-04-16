@@ -19,3 +19,13 @@ div img {
    margin-left: 15px;
    margin-top: 5px;
 }
+
+
+.lista-contenitore {
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 480px;
+    border-radius: 15px;
+    margin-left: 24%;
+    margin-top: 35px;
+}
