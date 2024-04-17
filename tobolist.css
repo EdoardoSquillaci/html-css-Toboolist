@@ -32,25 +32,31 @@ div img {
 }
 
 #separatore-header{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 input[type=button] {
     width: 100px;
     height: 35px;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 50px;
     border-radius: 10px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    border-style: dotted;
+    border-width: 1px;
+    border-style: ridge small;
 }
 
 #add-task{
-    background-color: aqua;
+    background-color: rgb(2, 137, 255);
 }
 
 #add-section{
     margin-left: 2px;
 }
 
+div h3{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(67, 62, 62);
+}
