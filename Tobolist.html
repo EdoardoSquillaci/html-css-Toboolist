@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="tobolist.css">
 </head>
 <body>
-  
+ 
+ <!--------------------------------------------------------------------->   
+
 <Header> <!--Inizio Header-->
 
     <div>
@@ -18,6 +20,7 @@
 
 </Header> <!--Fine Header-->
 
+<!--------------------------------------------------------------------->
 
 <main> <!--Main Con Lista-->
 
@@ -25,11 +28,12 @@
 <section>
 
 
+<div class="liste-contenitore"> <!--Contenitore Liste-->
+
+<!---------------------------------------------------------------------->
 
 
-<div class="lista-contenitore"> <!--Contenitore Liste-->
-
-<div id="Header-Contenitore">
+<div id="Header-Contenitore"> <!--Inizio Header-->
    
 
     <input id="add-task" type="button" value="Add Task">
@@ -37,7 +41,10 @@
     <input id="add-section" type="button" value="Add Section">
 
 <hr id="separatore-header">
-</div>
+
+</div> <!--Fine Header-->
+
+<!--------------------------------------------------------------->
 
 <div id="first-task"> <!--Inizio Prima Lista-->
 
@@ -55,7 +62,7 @@
 </div> <!--Fine Prima Lista-->
 
 
-
+<!---------------------------------------------------------------->
 
 <div id="second-task"> <!--Inizio Seconda Lista-->
 
@@ -93,31 +100,55 @@
 
 </div> <!--Fine Seconda Lista-->
 
+<!----------------------------------------------------------------->
 
-<div class="Third-List"> <!--Inizio Terza Lista-->
-
-
-
+<div id="Third-Task"> <!--Inizio Terza Lista-->
 
 
-</div>
+    <h3> &#9660 Upcoming</h3> <!--Titolo Terza Lista-->
 
 
+    <ul>
 
+        <li>
+            <div class="False"> &cross; </div>
+            Recruiting Blog Post
+        </li> 
+
+        <li>
+            <div class="True"> &check; </div>
+            Mobile App Launch
+            <div class="WebSite">WebSite</div>
+        </li> 
+
+        <li>
+            <div class="True"> &check; </div>
+            Interview Jhon H
+            <div class="Sales">Sales</div>
+        </li> 
+
+
+        <li>
+            <div class="True"> &check; </div>
+           Summit Update
+            <div class="editorial">Editorial</div>
+        </li> 
+
+        
+    </ul>
+
+
+</div> <!--Fine Terza Lista-->
+
+<!-------------------------------------------------------------------->
 
 </div> <!--Fine Contenitore Liste-->
 
-
-
-
 </section>
-
-
 
 </main> <!--Main Con Lista-->
 
-
-
+<!---------------------------------------------------------------------->
 
 </body>
 </html>
