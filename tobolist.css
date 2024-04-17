@@ -31,9 +31,6 @@ div img {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#separatore-header{
-    margin-top: 10px;
-}
 
 input[type=button] {
     width: 100px;
@@ -53,6 +50,10 @@ input[type=button] {
 
 #add-section{
     margin-left: 2px;
+}
+
+#separatore-header{
+    margin-top: 10px;
 }
 
 div h3{
